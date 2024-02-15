@@ -22,10 +22,4 @@ public class Pessoa {
 		return "Olá! Eu sou o " + nome + " e tenho " + peso + "kg.";
 	}
 
-	void academia(Pessoa peso) {
-		if (peso != null) {
-			this.peso -= 0.350;
-		}
-	}
-
 }
